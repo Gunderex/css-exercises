@@ -21,7 +21,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 4px;
   display: flex;
+  flex: auto;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 
@@ -35,5 +38,15 @@ a {
   display: flex;
   flex: auto;
   
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
 }
 
